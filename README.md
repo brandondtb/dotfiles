@@ -2,7 +2,7 @@
 
 My personal dotfiles. Use them as you wish.
 
-* Warning: the install script will overwrite existing dotfiles *
+**Warning: the install script will overwrite existing dotfiles**
 
 ## Prerequisites
 
