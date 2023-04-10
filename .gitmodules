@@ -1,0 +1,19 @@
+[submodule "zplug"]
+	path = zplug
+	url = https://github.com/zplug/zplug.git
+	branch = master
+[submodule "pyenv"]
+	path = pyenv
+	url = https://github.com/pyenv/pyenv.git
+	branch = master
+[submodule "pyenv-doctor"]
+	path = pyenv-doctor
+	url = https://github.com/pyenv/pyenv-doctor.git
+[submodule "pyenv-virtualenv"]
+	path = pyenv-virtualenv
+	url = https://github.com/pyenv/pyenv-virtualenv.git
+	branch = master
+[submodule "pyenv-update"]
+	path = pyenv-update
+	url = https://github.com/pyenv/pyenv-update.git
+	branch = master
