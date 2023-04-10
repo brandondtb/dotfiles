@@ -1,26 +1,25 @@
-# Brandon's dotfiles
+# brandondtb's dotfiles
 
-All my important dotfiles, in one place. Should work okay on Linux and MacOS.
+My personal dotfiles. Use them as you wish.
 
-To setup:
+* Warning: the install script will overwrite existing dotfiles *
 
-1. Use zsh
-2. Look over the list of required tools
-3. Run `git submodule update --init`
-4. Run the `install.sh` script
+## Prerequisites
 
-## What tools are included?
-
-* zplug plugin manager
-* pyenv & pyenv-virtualenv
-* fnm
-
-## What needs to be installed
-* pyenv build prerequisites
+* Zsh
 * direnv
-* neovim, emacs, tmux, as desired
-* stylua
-* black
-* prettier
-* pyright
+* [Python build dependencies](https://github.com/pyenv/pyenv/wiki#suggested-build-environment)
+
+To set up: 
+
+1. Clone the repo to your home directory. It expects to be in `~/dotfiles`.
+2. Run `git submodule update --init`. This sets up pyenv and zplug.
+3. Run `./install.sh`. This symlinks all the dotfiles to their correct locations.
+
+## What's included
+
+* Zsh configuration with zplug.
+* Emacs configuration (basic, evil, from scratch). WIP.
+* Neovim configuration with completions via LSP & Co-pilot.
+* Tmux configuration (basic).
 
