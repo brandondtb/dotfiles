@@ -23,3 +23,6 @@ To set up:
 * Neovim configuration with completions via LSP & Co-pilot.
 * Tmux configuration (basic).
 
+## Additional tools
+1. [Github Copilot CLI](https://www.npmjs.com/package/@githubnext/github-copilot-cli)
+2. tsserver
